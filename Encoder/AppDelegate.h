@@ -12,4 +12,17 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (weak) IBOutlet NSTextField *videoInputFilePathLabel;
+@property (weak) IBOutlet NSTextField *htmlOutputFilePathLabel;
+@property (weak) IBOutlet NSTextField *videoOutputFilePathLabel;
+@property (weak) IBOutlet NSTextField *htmlInputFilePathLabel;
+
+@property (copy) NSString *videoInputFilePath;
+@property (copy) NSString *htmlOutputFilePath;
+@property (copy) NSString *videoOutputFilePath;
+@property (copy) NSString *htmlInputFilePath;
+
+- (void)updateLabels;
+
+
 @end

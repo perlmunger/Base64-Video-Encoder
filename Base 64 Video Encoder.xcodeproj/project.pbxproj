@@ -13,22 +13,32 @@
 		B36E03B51500889E00AE9C13 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B36E03B31500889E00AE9C13 /* Credits.rtf */; };
 		B36E03B81500889E00AE9C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E03B71500889E00AE9C13 /* AppDelegate.m */; };
 		B36E03BB1500889F00AE9C13 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36E03B91500889E00AE9C13 /* MainMenu.xib */; };
+		B39FF32615008E2900768855 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FF32515008E2900768855 /* NSData+Additions.m */; };
+		B39FF32A15008E5B00768855 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FF32915008E5B00768855 /* NSString+Additions.m */; };
+		B39FF32C1500985F00768855 /* video.html in Resources */ = {isa = PBXBuildFile; fileRef = B39FF32B1500985F00768855 /* video.html */; };
+		B3C7D26715009AF800ECE445 /* part2.html in Resources */ = {isa = PBXBuildFile; fileRef = B3C7D26615009AF800ECE445 /* part2.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B36E03A01500889D00AE9C13 /* Encoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36E03A01500889D00AE9C13 /* Base 64 Video Encoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base 64 Video Encoder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36E03A41500889D00AE9C13 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B36E03A71500889D00AE9C13 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B36E03A81500889D00AE9C13 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B36E03A91500889D00AE9C13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B36E03AC1500889E00AE9C13 /* Encoder-Info.plist */ = {isa = PBXFileReference; path = "Encoder-Info.plist"; sourceTree = "<group>"; };
+		B36E03AC1500889E00AE9C13 /* Base 64 Video Encoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Base 64 Video Encoder-Info.plist"; sourceTree = "<group>"; };
 		B36E03AE1500889E00AE9C13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B36E03B01500889E00AE9C13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B36E03B21500889E00AE9C13 /* Encoder-Prefix.pch */ = {isa = PBXFileReference; path = "Encoder-Prefix.pch"; sourceTree = "<group>"; };
+		B36E03B21500889E00AE9C13 /* Base 64 Video Encoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Base 64 Video Encoder-Prefix.pch"; sourceTree = "<group>"; };
 		B36E03B41500889E00AE9C13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B36E03B61500889E00AE9C13 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36E03B61500889E00AE9C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B36E03B71500889E00AE9C13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B36E03BA1500889F00AE9C13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B39FF32415008E2900768855 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		B39FF32515008E2900768855 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
+		B39FF32815008E5B00768855 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		B39FF32915008E5B00768855 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		B39FF32B1500985F00768855 /* video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = video.html; path = Encoder/video.html; sourceTree = "<group>"; };
+		B3C7D26615009AF800ECE445 /* part2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = part2.html; path = Encoder/part2.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,8 @@
 		B36E03951500889D00AE9C13 = {
 			isa = PBXGroup;
 			children = (
+				B39FF32B1500985F00768855 /* video.html */,
+				B3C7D26615009AF800ECE445 /* part2.html */,
 				B36E03AA1500889D00AE9C13 /* Encoder */,
 				B36E03A31500889D00AE9C13 /* Frameworks */,
 				B36E03A11500889D00AE9C13 /* Products */,
@@ -55,7 +67,7 @@
 		B36E03A11500889D00AE9C13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B36E03A01500889D00AE9C13 /* Encoder.app */,
+				B36E03A01500889D00AE9C13 /* Base 64 Video Encoder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +98,10 @@
 				B36E03B71500889E00AE9C13 /* AppDelegate.m */,
 				B36E03B91500889E00AE9C13 /* MainMenu.xib */,
 				B36E03AB1500889E00AE9C13 /* Supporting Files */,
+				B39FF32415008E2900768855 /* NSData+Additions.h */,
+				B39FF32515008E2900768855 /* NSData+Additions.m */,
+				B39FF32815008E5B00768855 /* NSString+Additions.h */,
+				B39FF32915008E5B00768855 /* NSString+Additions.m */,
 			);
 			path = Encoder;
 			sourceTree = "<group>";
@@ -93,10 +109,10 @@
 		B36E03AB1500889E00AE9C13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B36E03AC1500889E00AE9C13 /* Encoder-Info.plist */,
+				B36E03AC1500889E00AE9C13 /* Base 64 Video Encoder-Info.plist */,
 				B36E03AD1500889E00AE9C13 /* InfoPlist.strings */,
 				B36E03B01500889E00AE9C13 /* main.m */,
-				B36E03B21500889E00AE9C13 /* Encoder-Prefix.pch */,
+				B36E03B21500889E00AE9C13 /* Base 64 Video Encoder-Prefix.pch */,
 				B36E03B31500889E00AE9C13 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B36E039F1500889D00AE9C13 /* Encoder */ = {
+		B36E039F1500889D00AE9C13 /* Base 64 Video Encoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B36E03BE1500889F00AE9C13 /* Build configuration list for PBXNativeTarget "Encoder" */;
+			buildConfigurationList = B36E03BE1500889F00AE9C13 /* Build configuration list for PBXNativeTarget "Base 64 Video Encoder" */;
 			buildPhases = (
 				B36E039C1500889D00AE9C13 /* Sources */,
 				B36E039D1500889D00AE9C13 /* Frameworks */,
@@ -117,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = Encoder;
+			name = "Base 64 Video Encoder";
 			productName = Encoder;
-			productReference = B36E03A01500889D00AE9C13 /* Encoder.app */;
+			productReference = B36E03A01500889D00AE9C13 /* Base 64 Video Encoder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,10 +144,10 @@
 		B36E03971500889D00AE9C13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Skye Road Systems, Inc.";
 			};
-			buildConfigurationList = B36E039A1500889D00AE9C13 /* Build configuration list for PBXProject "Encoder" */;
+			buildConfigurationList = B36E039A1500889D00AE9C13 /* Build configuration list for PBXProject "Base 64 Video Encoder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B36E039F1500889D00AE9C13 /* Encoder */,
+				B36E039F1500889D00AE9C13 /* Base 64 Video Encoder */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +172,8 @@
 				B36E03AF1500889E00AE9C13 /* InfoPlist.strings in Resources */,
 				B36E03B51500889E00AE9C13 /* Credits.rtf in Resources */,
 				B36E03BB1500889F00AE9C13 /* MainMenu.xib in Resources */,
+				B39FF32C1500985F00768855 /* video.html in Resources */,
+				B3C7D26715009AF800ECE445 /* part2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +186,8 @@
 			files = (
 				B36E03B11500889E00AE9C13 /* main.m in Sources */,
 				B36E03B81500889E00AE9C13 /* AppDelegate.m in Sources */,
+				B39FF32615008E2900768855 /* NSData+Additions.m in Sources */,
+				B39FF32A15008E5B00768855 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +271,11 @@
 		B36E03BF1500889F00AE9C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Encoder/Encoder-Prefix.pch";
-				INFOPLIST_FILE = "Encoder/Encoder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Encoder/Base 64 Video Encoder-Prefix.pch";
+				INFOPLIST_FILE = "Encoder/Base 64 Video Encoder-Info.plist";
+				PRODUCT_NAME = "Base 64 Video Encoder";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,10 +283,11 @@
 		B36E03C01500889F00AE9C13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Encoder/Encoder-Prefix.pch";
-				INFOPLIST_FILE = "Encoder/Encoder-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Encoder/Base 64 Video Encoder-Prefix.pch";
+				INFOPLIST_FILE = "Encoder/Base 64 Video Encoder-Info.plist";
+				PRODUCT_NAME = "Base 64 Video Encoder";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -273,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B36E039A1500889D00AE9C13 /* Build configuration list for PBXProject "Encoder" */ = {
+		B36E039A1500889D00AE9C13 /* Build configuration list for PBXProject "Base 64 Video Encoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B36E03BC1500889F00AE9C13 /* Debug */,
@@ -282,13 +304,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B36E03BE1500889F00AE9C13 /* Build configuration list for PBXNativeTarget "Encoder" */ = {
+		B36E03BE1500889F00AE9C13 /* Build configuration list for PBXNativeTarget "Base 64 Video Encoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B36E03BF1500889F00AE9C13 /* Debug */,
 				B36E03C01500889F00AE9C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
